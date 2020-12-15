@@ -1,3 +1,7 @@
+previously the api was http://localhost:8000/api in env
+now its https://mern-stack-app-demo.herokuapp.com/
+As it is hosted in the heroku app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,4 +1,4 @@
-import React , {useState, useEffect} from 'react';
+import React , {useState} from 'react';
 
 const CheckBox = ({categories, handleFilters}) => {
     const [checked, setChecked] = useState([])
@@ -21,7 +21,7 @@ const CheckBox = ({categories, handleFilters}) => {
         <li key={i} className ="list-unstyled">
             <input 
                 onChange={handleToggle(c._id)}
-                value ={checked.indexOf(c._id === -1)}
+                value ={c.name}
                 type="checkbox"
                 className="form-check-input"/>
             <label className="form-check-label">{c.name}</label>
